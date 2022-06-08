@@ -38,6 +38,10 @@ const handleUserInput = function(key) {
     connection.write("Say: iMa EAT Yaaa!");
   };
 
+  if (key === "f") {
+    connection.write("Say: I'm hungry..");
+  };
+
 };
 
 module.exports = {
